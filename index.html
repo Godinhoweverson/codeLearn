@@ -19,7 +19,7 @@
     <div id="main-container">
         <header>
             <nav class="navbar w-100">
-                <div class="container-fluid">
+                <div class="container-fluid p-0">
                     <a class="logo" href="index.html"><span>{}</span>Code Learn</a>
                     <form class="d-flex justify-content-center align-items-center search-form w-50 order-1 order-sm-0"
                         role="search">
@@ -45,7 +45,7 @@
                                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/courses/courses.html">Courses</a>
+                                    <a class="nav-link" href="./courses/courses.html">Courses</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/courses/courses.html">Sign in</a>
@@ -307,29 +307,24 @@
                     <h3><span>{}</span>Code Learn</h3>
                 </div>
                 <div class="footer-brand-paragraph">
-                    <p>Upgrade your skills with technology.</p>
+                    <p>Upgrade your skills with technology</p>
                 </div>
             </div>
-            <div class="footer-middle-contaneir">
-                <div class="footer-middle-container">
+            <div class="footer-container-newsletter">
+                <div class="footer-container-newsletter-text">
                     <h5>Never miss update</h5>
                     <p>Get all news and course updates from Code Learn delivered directly to your email inbox.</p>
                 </div>
-                <div class="footer-middle-container-form">
-                    <form class="d-flex justify-content-between align-items-center search-form w-100" role="search">
-                        <input class="form-control search-input" type="search" placeholder="Search for courses"
+                <div class="footer-container-newsletter-form">
+                    <form class="d-flex justify-content-center align-items-center search-form w-100" role="search">
+                        <input class="form-control search-input w-75" type="search" placeholder="email@email.com"
                             aria-label="Search">
-                        <button type="submit" class="">Join</button>
+                        <button type="submit" class="footer-btn">Join</button>
                     </form>
                 </div>
             </div>
             <div class="footer-content">
-                <div class="footer-content-copy">
-                    <p>&copy; <span id="year"></span>{} Code Learn. All rights reserved.</p>
-                </div>
-                <div class="footer-social-media">
-                    <i class="fa-brands fa-linkedin"></i>
-                </div>
+                <p>&copy; <span id="year"></span> Code Learn. All rights reserved.</p>
             </div>
         </footer>
     </div>

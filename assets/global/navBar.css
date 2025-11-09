@@ -52,7 +52,16 @@ nav{
     border:none
 }
 
+/* *** 992PX **** */
+@media (max-width: 992px) {
+    header{
+        width: 90%;
+    }
+}
+
+/* *** 572PX **** */
 @media (max-width: 572px) {
+
     .logo {
         font-size: 1rem !important;
     }

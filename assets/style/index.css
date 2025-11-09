@@ -5,28 +5,26 @@
 }
 
 body{
-    background-color:#f5f5f5;
-   
+    background-color:#f5f5f5; 
 }
 
 #main-container{
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction:column;
     min-height:100vh;
     width:100%;
-    margin:0 auto;
     background-color:#f5f5f5;
     padding-top:2rem;
 }
 
 main{
     flex:1;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
   /* HEADING */
@@ -280,23 +278,27 @@ main{
 
 /* *** 992PX **** */
 @media (max-width: 992px) {
-
-    #main-container{
-        width:90%;
+    
+    /* SUB HEADING */
+    #sub-heading{
+       width: 90%;
     }
 
     #plan-container{
         align-content: space-between;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
     }
     .plan-container-plans{
         width: 100%;
         margin-bottom: 3.5rem;
     }
+
+    /* REVIEWS */
     #reviews{
         flex-direction: column;
         align-content: space-between;
+        width: 90%;
     }
 
     .reviews-item{
@@ -326,12 +328,6 @@ main{
 
  /* *** 572PX **** */
 @media (max-width: 572px) {
-
-    #main-container{
-        width:95%;
-        padding: 0.3rem;
-    }
-
     /* HEADING */
     #heading{
         height: 45vh;
@@ -350,9 +346,6 @@ main{
     .heading-btn {
         padding: 0.50rem 1rem;
     }
-
-    
-    /* SUB HEADING */
 
    .sub-heading-items{
        display: none;
@@ -376,7 +369,6 @@ main{
    #cards{
         display: none;
    }
-
 }
 
 /* LANDSCAPE */

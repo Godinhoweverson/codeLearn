@@ -1,0 +1,14 @@
+
+#courses-main{
+  width: 80%;
+}
+
+#courses-heading{
+  margin-top: 3.5rem;  
+}
+
+#courses-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5%;
+}
