@@ -1,0 +1,75 @@
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(90deg,rgba(74, 1, 137, 1) 0%, rgba(115, 14, 204, 1) 56%, rgba(167, 66, 255, 1) 100%);
+  padding: 2rem;
+}
+
+.footer-brand{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.footer-brand-heading h3{
+  color: #f5f5f5;
+
+}
+
+.footer-brand-heading span{
+  padding-right: 0.5rem;
+}
+
+.footer-brand-paragraph p{
+  color: #f5f5f5;
+}
+
+.footer-middle-contaneir{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+}
+
+.footer-middle-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 45%;  
+}
+
+.footer-middle-container h5{
+  color: #f5f5f5;
+  font-weight: 700;
+}
+
+.footer-middle-container p{
+  color: #f5f5f5;
+  font-weight: 300;
+}
+
+.footer-middle-container-form{
+  width: 45%;
+}
+
+.footer-middle-container-form form input{
+  padding: 3px 6px !important;
+}
+
+.footer-middle-container-form form button{
+    padding: 0.25rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #f5f5f5;
+    background-color: rgba(167, 66, 255, 1);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+

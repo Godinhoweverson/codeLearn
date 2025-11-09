@@ -11,9 +11,11 @@ body{
 
 #main-container{
     display:flex;
+    justify-content: center;
+    align-items: center;
     flex-direction:column;
     min-height:100vh;
-    width:80%;
+    width:100%;
     margin:0 auto;
     background-color:#f5f5f5;
     padding-top:2rem;
@@ -21,6 +23,10 @@ body{
 
 main{
     flex:1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
   /* HEADING */
@@ -28,7 +34,7 @@ main{
 #heading{
     margin:3.5rem 0;
     width:100%;
-    height:100%;
+    height:55vh;
 }
 
 .heading-container {
@@ -36,15 +42,13 @@ main{
     height: 100%;
     width: 100%;
     overflow: hidden;
-    border-radius: 8px;
 }
 
 .heading-bg {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     object-fit: cover;
-    border-radius: 8px;
 }
 
 
@@ -69,7 +73,7 @@ main{
 }
 
 .heading-text h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
 }
 
@@ -92,9 +96,9 @@ main{
 #sub-heading{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     margin-bottom: 3.5rem;
 }
 
@@ -160,6 +164,7 @@ main{
 
 #cards{
     margin-bottom: 3.5rem;
+    width: 80%;
 }
 .card-item img{
     border-radius: 8px;
@@ -174,18 +179,18 @@ main{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 100%;
+   width: 80%;
    margin-bottom: 3.5rem;
 }
 
 .plan-container-plans{
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-between;
     align-items: center;
     flex-direction: column;
-    width: 30%;
-    height: 400px;
-    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 1);
+    width: 31%;
+    min-height: 30%;
+    box-shadow: 0 0 0.45rem rgba(0, 0, 0, 10);
     border-radius: 8px;
     padding: 1rem;
 }
@@ -194,8 +199,28 @@ main{
     border: 3px solid #a742ff;
 }
 
-.plan-container-monthly:hover{
+.plan-container-plans h3{
+    font-weight: 700;
+}
 
+.plan-container-plans-paragraph{
+    text-align: left;
+    width: 100%;
+}
+
+.plan-container-plans-description{
+    text-align: left;
+    width: 100%;
+
+}
+.plan-container-plans-description p{
+    border-bottom: 1px solid #000;
+
+}
+
+.plan-container-plans-price h4{
+    font-weight: 700;
+    color: #000;
 }
 
 .plans-btn{
@@ -215,14 +240,43 @@ main{
     width: 100%;
     text-align: center;
 }
+
+/* REVIEWS */
+
 #reviews{
-    background-color:rgb(77, 77, 1);
- 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 3.5rem;
+    min-height: 300px;
+    width: 80%;
+}
+.reviews-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 31%;
 }
 
-footer{
-    background-color:blue;
+.review-item-review p{
+
 }
+
+.review-item-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.review-item-user img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    padding-right: 1rem;
+}
+
 
 /* *** 992PX **** */
 @media (max-width: 992px) {
@@ -231,16 +285,32 @@ footer{
         width:90%;
     }
 
-    .heading-container-text h1{
-        font-size: 2.5rem;
+    #plan-container{
+        align-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+    .plan-container-plans{
+        width: 100%;
+        margin-bottom: 3.5rem;
+    }
+    #reviews{
+        flex-direction: column;
+        align-content: space-between;
     }
 
-    .heading-container-text p{
-        font-size: 0.8rem;
+    .reviews-item{
+        width: 100%;
+        flex-direction: column;
     }
 
-    .heading-container-text-btn{
-        padding: 0.2rem 0.4rem;
+    .review-item-review{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .review-item-user{
+        margin: 2rem 0 1rem 0;
     }
 
 }
@@ -263,24 +333,24 @@ footer{
     }
 
     /* HEADING */
-
-    .heading-container-text h1{
-        font-size: 2rem;
+    #heading{
+        height: 45vh;
+    }
+    .heading-text {
+        width: 70%;
+    }
+    .heading-text h1 {
+        font-size: 2.5rem;
     }
 
-    .heading-container-text p{
-        display: none;
+    .heading-text p {
+    font-size: 0.8rem;
     }
 
-    .heading-container-text-btn{
-        margin-top: 1rem;
-        padding: 0.1rem 0.3rem;
+    .heading-btn {
+        padding: 0.50rem 1rem;
     }
 
-    .heading-container-image{
-        width:35%;
-        height:25%;
-    }
     
     /* SUB HEADING */
 
@@ -304,7 +374,32 @@ footer{
 
    /* CARDS */
    #cards{
-    display: none;
+        display: none;
    }
-  
+
+}
+
+/* LANDSCAPE */
+@media screen and (max-width:932px) and (orientation: landscape){
+    #heading{
+        height: 60vh;
+    }
+    .heading-text h1 {
+        font-size: 2rem;
+    }
+
+    .heading-text p {
+        font-size: 0.8rem;
+    }
+
+    .heading-btn {
+        padding: 0.50rem 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .heading-text {
+        width: 85%;
+        left: 45%;
+    }
 }
