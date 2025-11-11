@@ -6,15 +6,18 @@ let lastName = document.getElementById("lname");
 let emailInput = document.getElementById("email");
 let passwordInput = document.getElementById("password");
 
-//GET THE DATA WHEN THE BUTTON SUBMIT IS CLICKED
-signIn.addEventListener("submit", function(e){
-
-//PREVENT THE PAGE FROM REFRESHIN WHEN THE SUBMIT BUTTON IS CLICKED
+   
+if(signIn){
+  //GET THE DATA WHEN THE BUTTON SUBMIT IS CLICKED
+  signIn.addEventListener("submit", function (e) {
+    //PREVENT THE PAGE FROM REFRESHIN WHEN THE SUBMIT BUTTON IS CLICKED
     e.preventDefault();
 
-//CALL THE validaForm() FUNCTION AND PASS THE FORM DATA AS AN ARGUMENT
+    //CALL THE validaForm() FUNCTION AND PASS THE FORM DATA AS AN ARGUMENT
     validateForm(e);
-});
+  });
+}
+ 
 
 //validateForm() FUNCTION IS USED TO VALIDATE THE INPUTS
 const validateForm = function(e){
@@ -82,7 +85,7 @@ const validateForm = function(e){
     }
 
     if(!nameRegex.test(fname) && !nameRegex.test(lname) && emailRegex.test(email) && passwordRegex.test(password)){
-        validForm();
+        validForm(fname,lname);
     }
 
     //Reset the inputs
@@ -97,7 +100,10 @@ const validateForm = function(e){
 }
 
 
-const validForm = function (){
+const validForm = function (fname, lname){
+    localStorage.setItem("fname", fname);
+    localStorage.setItem("lname", lname);
     signIn.reset();
-
+    window.location.href = "../index.html";
+    localStorage.setItem("showTopUp", "true");
 }

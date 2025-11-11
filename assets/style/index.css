@@ -26,15 +26,16 @@ p{
     position: relative;
 }
 
-#sucessulMsg{
-    display: flex;
+/* Top Up window that will be display when the user sign in */
+#topUpBox{
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 30%;
+    top: 3%;
     right: 10.1%;
-    height: 5%;
-    width: 20%;
+    height: fit-content;
+    width: 22%;
     background: #f5f5f5;   
     z-index: 999;
     position: absolute;
@@ -43,9 +44,12 @@ p{
     padding: 0.5rem;
 }
 
-#sucessulMsg h2{
-    font-weight: 700;
-    padding: 0.5rem 0.5rem 0.5rem 0;
+#topUpBox p{
+    padding-top: 2rem;
+}
+
+#topUpBox h5{
+    text-transform: capitalize;
 }
 
 .checkedLog{
