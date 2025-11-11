@@ -8,13 +8,3 @@ document.getElementsByClassName("footer-btn")[0].addEventListener("click", funct
   event.preventDefault()
 });
 
-// SIGNIN FORM
-let signIn = document.getElementById("signIn-form");
-console.log(signIn)
-signIn.addEventListener("submit", function(e){
-    e.preventDefault();
-
-    if(e.target.fname.value == ""){
-        alert("yes")
-    }
-})

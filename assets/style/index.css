@@ -23,6 +23,17 @@ p{
     min-height: 100vh;
     background-color:#f5f5f5;
     padding-top:2rem;
+    position: relative;
+}
+
+#sucessulMsg{
+    top: 110px;
+    right: 100px;
+    height: 10%;
+    width: 25%;
+    background-color: red;
+    z-index: 999;
+    position: absolute;
 }
 
 main{

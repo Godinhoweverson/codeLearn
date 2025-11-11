@@ -1,6 +1,6 @@
 #note{
     display: none;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     position: top;
@@ -38,6 +38,7 @@
     border-radius: 8px;
     padding: 0.3rem;
     margin-bottom: 0.8rem;
+    border: 1px solid #000;
 }
 
 .signIn-btn{

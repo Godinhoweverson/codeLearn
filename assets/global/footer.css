@@ -66,24 +66,25 @@ footer{
 }
 
 .footer-btn{
-    padding: 0.25rem 1rem;
-    border-radius: 8px;
-    border: 1px solid #f5f5f5;
-    background-color: rgba(167, 66, 255, 1);
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
-    margin-left: 0.5rem;
+  padding: 0.25rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #f5f5f5;
+  background-color: rgba(167, 66, 255, 1);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0.5rem;
 }
 
 .footer-btn:hover{
-    border: 1px solid #f5f5f5;
-    background-color: #f5f5f5;
-    color: rgba(167, 66, 255, 1);
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  color: rgba(167, 66, 255, 1);
 }
 
-.footer-content p{
+.footer-copyRights p{
   color: #f5f5f5;
+  margin: 0;
 }
 
 /* *** 992PX **** */
