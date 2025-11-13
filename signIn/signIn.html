@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="../assets/global/navBar.css">
   <link rel="stylesheet" href="../assets/global/footer.css">
   <link rel="stylesheet" href="signIn.css">
-  <link rel="stylesheet" href="signIn.css">
+
 </head>
 
 <body>
@@ -68,24 +68,44 @@
       </nav>
     </header>
     <main>
-      <div id="note">
-
-      </div>
       <form id="signIn-form" novalidate>
         <div id="signin-heading">
             <h1>Sign in</h1>
         </div>
         <label for="fname">First Name</label>
-        <input type="text" name="fname" placeholder="First name" id="fname">
+        <input type="text" name="fname" placeholder="First name"
+          id="fname"
+          required 
+          maxlength="13"
+          pattern=^[A-Za-zÀ-ž]+$
+          >
+        <span id="error-message-fname" aria-live="polite"></span>
 
         <label for="lname">Last Name</label>
-        <input type="text" name="lname" placeholder="Last name" id="lname">
+        <input type="text" name="lname" placeholder="Last name"
+          id="lname"
+          required 
+          maxlength="13"
+          pattern=^[A-Za-zÀ-ž]+$
+          >
+        <span id="error-message-lname" aria-live="polite"></span>
 
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="email@email.com" id="email">
+        <input type="email" name="email" placeholder="email@email.com"
+          id="email" 
+          required
+          pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$"
+          >
+        <span id="error-message-email" aria-live="polite"></span>
 
         <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Enter with your password" id="password">
+        <input type="password" name="password" placeholder="Enter your password" 
+          id="password"
+          required
+          minlength="8"
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}$"
+          >
+        <span id="error-message-password" aria-live="polite"></span>
 
         <button class="signIn-btn" type="submit">Submit</button>
       </form>

@@ -10,6 +10,7 @@ document.getElementsByClassName("footer-btn")[0].addEventListener("click", funct
 
 let showTopUp = document.getElementById("topUpBox");
 let userName = document.getElementById("name-topUp");
+let headingSignIn = document.getElementById("headingSignIn");
 
 if(showTopUp && localStorage.getItem("showTopUp") === "true"){
   let fname = localStorage.getItem("fname");
@@ -21,8 +22,14 @@ if(showTopUp && localStorage.getItem("showTopUp") === "true"){
 
   setTimeout(() => {
     showTopUp.style.display = "none";
-  }, 3000);
+  }, 7000);
   localStorage.removeItem("fname");
   localStorage.removeItem("lname");
   localStorage.removeItem("showTopUp");
+
+  headingSignIn.textContent = "Sign out";
+}
+// I Have to finish it
+if(headingSignIn.textContent === "Sign out"){
+  console.log('yes')
 }
