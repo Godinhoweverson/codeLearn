@@ -4,11 +4,39 @@
 }
 
 #courses-heading{
-  margin-top: 3.5rem;  
+  margin: 3.5rem 0 3.5rem 0;  
 }
 
 #courses-grid{
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 5%;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-rows: auto;
+  gap: 1rem 1rem;
+}
+
+.courses-grid-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 0.7px solid #000;
+  border-radius: 8px;
+  height: 45vh;
+}
+
+.courses-grid-item-img{
+  width: 100%;
+  height: 65%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.courses-grid-item-content{
+  height: 35%;
+  padding: 0.3rem;
+}
+
+.courses-grid-item-content-title{
+  font-weight: 700;
 }
