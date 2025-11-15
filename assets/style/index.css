@@ -322,7 +322,7 @@ main{
 
 /* MEDIA QUERY */
 
-/* *** 992PX **** */
+/* *** 1300PX **** */
 @media (max-width: 1300px) {
     .plan-container-plans h3{
         font-size: 1.3rem;

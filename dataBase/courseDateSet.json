@@ -195,21 +195,6 @@
     "image":"mongodb.png"
   },
   {
-    "course_id":1039596,
-    "course_title":"Enhance Your Express Skills",
-    "num_subscribers":223,
-    "num_reviews":26,
-    "num_lectures":27,
-    "level":"Intermediate Level",
-    "content_duration":"3.5 hours",
-    "published_timestamp":"2016-12-22T00:14:13Z",
-    "subject":"Web Development",
-    "main_technology":"express",
-    "description":"The course 'Build Complex Express Sites with Redis and Socket IO' is designed for learners interested in mastering Express. It provides a comprehensive understanding of Express concepts and hands-on applications. Suitable for intermediate level learners, it covers both theoretical and practical aspects. Throughout the course, you\u2019ll work with real-world projects to strengthen your Express development skills. The course includes approximately 3.5 hours of on-demand video content. By the end, students will be able to build complete applications and apply Express skills professionally. With over 223 enrolled students and 26 reviews, it\u2019s a popular choice among developers. Students will gain experience in debugging, optimization, and modern development practices. Each module focuses on key principles of coding, architecture, and problem-solving. Interactive examples and exercises ensure a deep learning experience. Instructors provide insights into common mistakes and best practices in Express. The course is updated regularly to stay aligned with current industry standards. Resources include coding challenges, quizzes, and downloadable materials. After completion, you\u2019ll have a strong foundation to advance your Express career. The course is available for 125, making it a great investment in your education.",
-    "category":"framework",
-    "image":"express.png"
-  },
-  {
     "course_id":1094964,
     "course_title":"Enhance Your Django Skills",
     "num_subscribers":2669,
@@ -283,5 +268,35 @@
     "description":"The course 'Learn to build 20 websites and build 14 iOS9 apps with swift' is designed for learners interested in mastering Swift. It provides a comprehensive understanding of Swift concepts and hands-on applications. Suitable for all levels learners, it covers both theoretical and practical aspects. Throughout the course, you\u2019ll work with real-world projects to strengthen your Swift development skills. The course includes approximately 22.5 hours of on-demand video content. By the end, students will be able to build complete applications and apply Swift skills professionally. With over 1,926 enrolled students and 9 reviews, it\u2019s a popular choice among developers. Students will gain experience in debugging, optimization, and modern development practices. Each module focuses on key principles of coding, architecture, and problem-solving. Interactive examples and exercises ensure a deep learning experience. Instructors provide insights into common mistakes and best practices in Swift. The course is updated regularly to stay aligned with current industry standards. Resources include coding challenges, quizzes, and downloadable materials. After completion, you\u2019ll have a strong foundation to advance your Swift career. The course is available for 40, making it a great investment in your education.",
     "category":"backend",
     "image":"swift.png"
-  }
+  },
+  {
+  "course_id": 563021,
+  "course_title": "Mastering Next.js From Zero to Production",
+  "num_subscribers": 3480,
+  "num_reviews": 27,
+  "num_lectures": 312,
+  "level": "All Levels",
+  "content_duration": "19 hours",
+  "published_timestamp": "2019-10-12T17:30:00Z",
+  "subject": "Web Development",
+  "main_technology": "nextjs",
+  "description": "The course 'Mastering Next.js From Zero to Production' is designed to help learners understand and build modern full-stack applications using the Next.js framework. It covers core concepts including file-based routing, SSR, API routes, authentication, performance optimization, and deployment strategies. With a mix of practical exercises and real-world projects, students gain hands-on experience creating production-ready applications. The course offers 19 hours of high-quality video lessons, quizzes, and coding challenges. Updated to reflect the latest Next.js features such as the App Router and Server Components. By the end, learners will be able to build scalable and optimized applications suitable for professional environments. With over 3,480 students and 27 reviews, it's a popular choice among aspiring and experienced developers. Available for 40, the course is an excellent investment for anyone looking to grow in modern frontend and full-stack development.",
+  "category": "frontend",
+  "image": "nextjs.png"
+},
+{
+  "course_id": 563022,
+  "course_title": "Complete Modern C++ Programming Bootcamp",
+  "num_subscribers": 4120,
+  "num_reviews": 34,
+  "num_lectures": 520,
+  "level": "All Levels",
+  "content_duration": "29 hours",
+  "published_timestamp": "2018-04-05T09:20:00Z",
+  "subject": "Software Engineering",
+  "main_technology": "cpp",
+  "description": "The course 'Complete Modern C++ Programming Bootcamp' provides an in-depth journey into C++ programming from fundamentals to advanced topics. Learners will explore concepts including memory management, OOP, STL, templates, algorithms, and modern C++ features (C++11/14/17). With practical projects and hands-on coding exercises, students master writing efficient and robust applications. The bootcamp includes approximately 29 hours of content, covering real-world scenarios related to system development, game engines, and performance-critical applications. Instructors share insights on optimization, debugging, and best practices for modern C++ coding. With 4,120 enrolled students and 34 reviews, it is a top choice for those aiming to strengthen their system programming skills. The course includes quizzes, challenges, and downloadable resources. Suitable for both beginners and professionals. Available for 40, it's a valuable investment for any aspiring C++ developer.",
+  "category": "backend",
+  "image": "c++.png"
+}
 ]
