@@ -74,6 +74,10 @@
   font-weight: 700;
 }
 
+.courses-grid-item-content-duration{
+  padding-right: 0.8rem;
+}
+
 /* MEDIA QUERY */
 
 /* *** MAX 1600PX **** */
