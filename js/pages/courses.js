@@ -1,6 +1,16 @@
 //VARIABLES
 let courseGrid = document.getElementById("courses-grid");
 let categories = document.querySelectorAll(".category");
+let searchForm = document.getElementById("search-form");
+let coursesMain = document.getElementById("courses-main");
+let notIncluded = document.querySelector("#not-included");
+
+function search(callback){
+  searchForm.addEventListener("input", function (e) {
+    callback(e.target.value);
+  });
+}
+
 
 //This triggers the value from the categories on the courses page and sends the value to filter the data.
  function onCategorySelect(callback){
@@ -18,6 +28,26 @@ let categories = document.querySelectorAll(".category");
 fetch("../dataBase/courseDateSet.json")
   .then((res) => res.json())
   .then((courses) => {
+
+    //Search
+    search((input) =>{
+       const searchList = courses.filter((course) => course.main_technology.toLowerCase().includes(input));
+       if(searchList.length !== 0){
+        displayCourses(searchList); 
+       }else{
+        courseGrid.innerHTML = "";
+        if (notIncluded) {
+            notIncluded.remove();
+        } // Cleans the previous message
+
+        // Create a new <p>
+        notIncluded = document.createElement("p");
+        notIncluded.id = "not-included";
+        notIncluded.textContent = `Oops! We couldn’t find any courses matching with ${input}.`;
+
+        coursesMain.appendChild(notIncluded);  
+       }
+    })
 
     //It retrieves the value from index.html and uses it to filter and display.
     let categoryIn = localStorage.getItem("category");
@@ -48,7 +78,13 @@ fetch("../dataBase/courseDateSet.json")
 // It creates the HTML structure and classes for each card that will be displayed on courses.html.
 function displayCourses(coursesList) {
   if(courseGrid){
-    courseGrid.innerHTML = ""; // Cleans the value before displaying a new one.
+
+    // Cleans the value before displaying a new one.
+    courseGrid.innerHTML = "";
+    if (notIncluded) {
+      notIncluded.remove();
+    }
+    
     coursesList.forEach((course) => {
       //create a div element
       let coursesGridItem = document.createElement("div");

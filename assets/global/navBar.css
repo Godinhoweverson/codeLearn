@@ -41,6 +41,16 @@ nav{
     font-size: 1.2rem;
 }
 
+.nav-link a{
+    cursor: pointer;
+}
+
+
+#headingSignout{
+    display: none;
+    cursor: pointer;
+}
+
 .nav-link:hover, .dropdown-item:hover{
     color: #871ae7;
     font-weight: 700;

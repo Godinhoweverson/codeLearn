@@ -294,7 +294,7 @@
   "content_duration": "29 hours",
   "published_timestamp": "2018-04-05T09:20:00Z",
   "subject": "Software Engineering",
-  "main_technology": "cpp",
+  "main_technology": "c++",
   "description": "The course 'Complete Modern C++ Programming Bootcamp' provides an in-depth journey into C++ programming from fundamentals to advanced topics. Learners will explore concepts including memory management, OOP, STL, templates, algorithms, and modern C++ features (C++11/14/17). With practical projects and hands-on coding exercises, students master writing efficient and robust applications. The bootcamp includes approximately 29 hours of content, covering real-world scenarios related to system development, game engines, and performance-critical applications. Instructors share insights on optimization, debugging, and best practices for modern C++ coding. With 4,120 enrolled students and 34 reviews, it is a top choice for those aiming to strengthen their system programming skills. The course includes quizzes, challenges, and downloadable resources. Suitable for both beginners and professionals. Available for 40, it's a valuable investment for any aspiring C++ developer.",
   "category": "Back-end",
   "image": "c++.png"

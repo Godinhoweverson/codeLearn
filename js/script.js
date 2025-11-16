@@ -13,6 +13,8 @@ document.getElementsByClassName("footer-btn")[0].addEventListener("click", funct
 //Top up message
 let showTopUp = document.getElementById("topUpBox");
 let userName = document.getElementById("name-topUp");
+let signIn = document.getElementById("headingSignIn");
+let signOut = document.getElementById("headingSignout");
 
 if(showTopUp && localStorage.getItem("showTopUp") === "true"){
   let fname = localStorage.getItem("fname");
@@ -25,9 +27,20 @@ if(showTopUp && localStorage.getItem("showTopUp") === "true"){
   setTimeout(() => {
     showTopUp.style.display = "none";
   }, 7000);
+
+  signIn.style.display = "none";
+  signOut.style.display = "flex";
+
   localStorage.removeItem("fname");
   localStorage.removeItem("lname");
   localStorage.removeItem("showTopUp");
+}
+
+if(signOut){
+  signOut.addEventListener("click", function (e) {
+    signOut.style.display = "none";
+    signIn.style.display = "flex";
+  });
 }
 
 // ****************************************
