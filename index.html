@@ -25,8 +25,44 @@
             <h5 id="name-topUp">Paulo santos</h5>
         </div>
         <header>
+            <nav class="navbar navbar-expand-lg w-100">
+                <div class="container-fluid">
+                    <a class="logo" href="index.html"><span>{}</span>Code Learn</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./courses/courses.html">Courses</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/courses/courses.html">Front-end</a></li>
+                                    <li><a class="dropdown-item" href="/courses/courses.html">Back-end</a></li>
+                                    <li><a class="dropdown-item" href="/courses/courses.html">Database</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="headingSignIn" href="./signIn/signIn.html">Sign in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
             <!-- NAVBAR WILL BE USED FOR ALL HTML PAGES-->
-            <nav class="navbar w-100">
+            <!-- <nav class="navbar w-100">
                 <div class="container-fluid p-0">
                     <a class="logo" href="index.html"><span>{}</span>Code Learn</a>
                     <form class="d-flex justify-content-center align-items-center search-form w-50 order-1 order-sm-0"
@@ -74,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
         </header>
         <main>
             <!-- HEADING -->
@@ -192,7 +228,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="card-item w-100">
-                                        <img src="assets/images/courses/next.png" alt="NextJs technology icon">
+                                        <img src="assets/images/courses/nextjs.png" alt="NextJs technology icon">
                                     </div>
                                 </div>
                             </div>
@@ -402,5 +438,6 @@
     crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 <script src="js/pages/signIn.js"></script>
+<script src="js/pages/courses.js"></script>
 
 </html>
