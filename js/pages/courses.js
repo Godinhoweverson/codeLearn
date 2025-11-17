@@ -26,7 +26,7 @@ if(searchForm){
   // The user can choose a category from the navbar on another page or on the courses page. 
   // After filtering, it will call the displayCourses() function and pass the filtered courses as an argument. 
   // The user can filter by selecting a category or by typing in the search bar.
-  fetch("../dataBase/courseDateSet.json")
+  fetch("../database/courseDataSet.json")
     .then((res) => res.json())
     .then((courses) => {
 
@@ -93,6 +93,7 @@ if(searchForm){
         coursesGridItem.classList.add("courses-grid-item");
         courseGrid.appendChild(coursesGridItem);
 
+        // Stored the course ID in a data attribute
         coursesGridItem.dataset.courseId = course.course_id;
 
         //Create img element
@@ -136,6 +137,10 @@ if(searchForm){
         courseGridItemContentDuration.append(duration);
         courseGridItemContent.appendChild(courseGridItemContentDuration);
       });
+
+      // When the user clicks a course card, retrieve the course ID stored in its data attribute.
+      // This ID will be saved to localStorage and used in courseDetails.js to filter the
+      // fetched data and redirect to coursesDetails page.
       let courseCards = document.querySelectorAll(".courses-grid-item");
       if (courseCards) {
           courseCards.forEach((e)=>{
@@ -144,7 +149,9 @@ if(searchForm){
                 const course = e.target.closest(".courses-grid-item");
                 const courseId = course.dataset.courseId;
 
-                console.log(courseId);
+                localStorage.setItem("courseId",courseId);
+
+                window.location.href = "../courseDetail/courseDetail.html"
               }
             });
           })
