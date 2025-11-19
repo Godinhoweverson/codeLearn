@@ -39,6 +39,11 @@ footer{
   margin: 1.8rem 0 1.8rem 0;
 }
 
+#footer-container-newsletter-paragraph{
+  color: #f5f5f5;
+  display: none;
+}
+
 .footer-container-newsletter-text{
   display: flex;
   align-items: flex-start;

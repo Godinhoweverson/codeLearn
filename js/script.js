@@ -3,9 +3,27 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 // ****************************************
-// TO PREVENT THE PAGE REFRESH WHEN CLICK IN JOIN BUTTON ON FOOTER
-document.getElementsByClassName("footer-btn")[0].addEventListener("click", function(event){
+//Newsletter Form
+let newsletterForm = document.getElementById("newsletter-form");
+let newsletterContainerForm = document.getElementsByClassName("footer-container-newsletter-form")[0];
+let Pmessage = document.getElementById("footer-container-newsletter-paragraph");
+
+
+// This event listener hides the newsletter form input, displays a message to the user,
+// then after 5 seconds shows the form input again and clears the field.
+newsletterForm.addEventListener("submit", function(event){
   event.preventDefault()
+  let newsletterInput = document.getElementById("newsletter-input").value;
+  if(newsletterInput){
+     newsletterContainerForm.style.display = "none";
+     Pmessage.style.display = "flex";
+     setTimeout(()=>{
+        Pmessage.style.display = "none";
+        newsletterContainerForm.style.display = "flex";
+        newsletterInput.textContent = "";
+        newsletterForm.reset();
+     },5000);
+  }
 });
 
 
