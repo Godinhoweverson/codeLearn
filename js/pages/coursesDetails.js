@@ -1,5 +1,5 @@
 let courseId = localStorage.getItem("courseId");
-let heading = document.getElementById("heading");
+let heading = document.getElementById("course-details-heading");
 let img = document.getElementsByClassName("courseDetail-main-course-card-img")[0];
 let lectures = document.getElementById("lectures");
 let Subcribes = document.getElementById("Subcribes");
@@ -14,13 +14,15 @@ fetch("../database/courseDataSet.json")
 .then((res)=> res.json())
 .then((courses)=>{
   const course = courses.filter((course) => course.course_id === Number(courseId));
-  
-  heading.textContent = `${course[0].course_title}`
+  if(heading){
+      heading.textContent = `${course[0].course_title}`
   img.src=`../assets/images/courses/${course[0].image}`;
   img.alt = `${course[0].main_technology} programming icon`;
   lectures.textContent = `${course[0].num_lectures}`;
-  Subcribes.textContent = `${course[0].num_lectures}`;
-  reviews.textContent = `${course[0].num_lectures}`;
+  Subcribes.textContent = `${course[0].num_subscribers}`;
+  reviews.textContent = `${course[0].num_reviews}`;
 
-  description.innerHTML = `${course[0].description}`
+  description.innerHTML = `${course[0].description}`;
+  }
+
 })

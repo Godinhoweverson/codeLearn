@@ -192,7 +192,7 @@
     "main_technology": "mongodb",
     "description": "<h3>Overview</h3>\n<p>Learn how to use MongoDB to power modern web applications. This course teaches you how to design schemas, query data and integrate MongoDB with full-stack projects.</p>\n<h3>Modules</h3>\n<ul>\n  <li>NoSQL concepts and MongoDB basics</li>\n  <li>Designing collections and documents</li>\n  <li>CRUD operations, indexing and query patterns</li>\n  <li>Aggregation pipelines and analytics-style queries</li>\n  <li>Integrating MongoDB with web frameworks and APIs</li>\n  <li>Building a small web application backed by MongoDB</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to model application data in MongoDB, write efficient queries and connect your database to real web applications.</p>",
     "category": "Database",
-    "image": "mongodb.png"
+    "image": "mongoDB.png"
   },
   {
     "course_id": 1094964,
@@ -237,7 +237,7 @@
     "main_technology": "typescript",
     "description": "<h3>Overview</h3>\n<p>Learn TypeScript from the ground up and use it to build safer, more maintainable JavaScript applications. This course is ideal for developers who want to add types and structure to their front-end or back-end projects.</p>\n<h3>Modules</h3>\n<ul>\n  <li>TypeScript setup, tooling and basic types</li>\n  <li>Interfaces, type aliases and unions</li>\n  <li>Functions, generics and modules</li>\n  <li>Classes, inheritance and decorators</li>\n  <li>Using TypeScript with popular frameworks such as React or Node.js</li>\n  <li>Building and organizing a real-world TypeScript project</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to gradually introduce TypeScript into existing JavaScript codebases and build new applications with strong typing and better tooling support.</p>",
     "category": "Front-end",
-    "image": "typescript.png"
+    "image": "typeScript.png"
   },
   {
     "course_id": 987064,
