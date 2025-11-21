@@ -5,11 +5,6 @@ let lectures = document.getElementById("lectures");
 let Subcribes = document.getElementById("Subcribes");
 let reviews = document.getElementById("course-reviews");
 
-
-//Finish............
-let javascritpbtn = document.getElementById("javaScript");
-console.log(javascritpbtn)
-
 let description = document.getElementById(
   "courseDetail-description"
 );
@@ -17,7 +12,16 @@ let description = document.getElementById(
 fetch("../database/courseDataSet.json")
 .then((res)=> res.json())
 .then((courses)=>{
-  const course = courses.filter((course) => course.course_id === Number(courseId));
+
+  let course;
+  let courseSub = localStorage.getItem("course");
+  if(!courseSub){
+    course = courses.filter((course) => course.course_id === Number(courseId));
+  }else{
+    course = courses.filter((course) => course.course_id === Number(courseSub));
+  }
+  localStorage.removeItem("course");
+  
   if(heading){
       heading.textContent = `${course[0].course_title}`
   img.src=`../assets/images/courses/${course[0].image}`;
