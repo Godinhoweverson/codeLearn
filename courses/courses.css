@@ -81,13 +81,13 @@
 /* MEDIA QUERY */
 
 /* *** MAX 1600PX **** */
-@media (max-width: 1600px) {
+@media (max-width: 1680px) {
   #courses-grid{
     grid-template-columns: 24.1% 24.1% 24.1% 24.1%;
   }
 }
 /* *** 1200PX **** */
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
   #courses-grid{
     grid-template-columns: 32.1% 32.1% 32.1%;
   }
@@ -97,6 +97,17 @@
 @media (max-width: 992px) {
   #courses-main{
     width: 90%;
+  }
+
+   #courses-grid{
+    grid-template-columns: 49% 49%;
+  }
+}
+
+/* LANDSCAPE */
+@media screen and (max-width:932px) and (orientation: landscape){
+  #courses-grid{
+    grid-template-columns: 49% 49%;
   }
 }
 /* *** 640PX **** */
@@ -115,7 +126,7 @@
   }
 
   #courses-grid{
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
   }
 }
 

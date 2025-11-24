@@ -44,8 +44,13 @@ if(searchForm){
           // Create a new <p>
           notIncluded = document.createElement("p");
           notIncluded.id = "not-included";
-          notIncluded.textContent = `Oops! We couldn’t find any courses matching with ${input}.`;
+          let span = document.createElement("span");
+          span.style.fontWeight = "bold";
+          span.textContent = `${input}.`;
 
+          notIncluded.textContent = `Oops! We couldn’t find any courses matching with `;
+          
+          notIncluded.appendChild(span);
           coursesMain.appendChild(notIncluded);  
         }
       })
@@ -136,6 +141,22 @@ if(searchForm){
         let duration = document.createTextNode(`${course.content_duration}`);
         courseGridItemContentDuration.append(duration);
         courseGridItemContent.appendChild(courseGridItemContentDuration);
+
+
+        let iconReview = document.createElement("img");
+        iconReview.classList.add(
+          "courses-grid-item-content-duration"
+        );
+
+        iconReview.src = `../assets/images/rate-review.png`;
+        iconReview.style.paddingLeft = "20px";
+        courseGridItemContentDuration.appendChild(iconReview);
+
+        let review = document.createTextNode(`${course.num_reviews} Reviews`);
+        courseGridItemContentDuration.append(review);
+        courseGridItemContent.appendChild(courseGridItemContentDuration);
+
+        
       });
 
       // When the user clicks a course card, retrieve the course ID stored in its data attribute.

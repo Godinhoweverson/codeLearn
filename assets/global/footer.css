@@ -42,6 +42,7 @@ footer{
 #footer-container-newsletter-paragraph{
   color: #f5f5f5;
   display: none;
+  text-align: left;
 }
 
 .footer-container-newsletter-text{
@@ -114,6 +115,12 @@ footer{
   .footer-brand-paragraph {
     display: none;
   }
+
+  #footer-container-newsletter-paragraph{
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
   .footer-container-newsletter{
     flex-direction: column;
   }
