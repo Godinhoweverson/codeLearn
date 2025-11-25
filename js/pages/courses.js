@@ -128,33 +128,40 @@ if(searchForm){
         courseGridItemContentParagraph.textContent = `${course.level}`;
         courseGridItemContent.appendChild(courseGridItemContentParagraph);
 
-        //Create p element for course duration
-        let courseGridItemContentDuration = document.createElement("span");
-      
-        let icon = document.createElement("img");
-        icon.classList.add(
-          "courses-grid-item-content-duration"
+        //Create p element for course duration and review
+        let courseGridItem = document.createElement("span");
+        courseGridItem.classList.add(
+          "courses-grid-item-informations"
         );
+
+        let divDuration = document.createElement('div');
+        divDuration.classList.add("courses-item-informations")
+        courseGridItem.appendChild(divDuration);
+
+    
+        let icon = document.createElement("img");
         icon.src = `../assets/images/videoIcon.png`;
-        courseGridItemContentDuration.appendChild(icon);
+        icon.style.paddingRight = "5px"
+        divDuration.appendChild(icon);
 
-        let duration = document.createTextNode(`${course.content_duration}`);
-        courseGridItemContentDuration.append(duration);
-        courseGridItemContent.appendChild(courseGridItemContentDuration);
+        let duration = document.createElement('p');
+        duration.textContent = `${course.content_duration}`;
+        divDuration.append(duration);
+        courseGridItemContent.appendChild(courseGridItem);
 
+        let divReviews = document.createElement('div');
+        divReviews.classList.add("courses-item-informations")
+        courseGridItem.appendChild(divDuration);
 
         let iconReview = document.createElement("img");
-        iconReview.classList.add(
-          "courses-grid-item-content-duration"
-        );
-
         iconReview.src = `../assets/images/rate-review.png`;
-        iconReview.style.paddingLeft = "20px";
-        courseGridItemContentDuration.appendChild(iconReview);
+        iconReview.style.paddingRight = "5px";
+        divReviews.appendChild(iconReview);
 
-        let review = document.createTextNode(`${course.num_reviews} Reviews`);
-        courseGridItemContentDuration.append(review);
-        courseGridItemContent.appendChild(courseGridItemContentDuration);
+        let review = document.createElement('p');
+        review.textContent = `${course.num_reviews} Reviews`;
+        divReviews.append(review);
+        courseGridItem.appendChild(divReviews);
 
         
       });

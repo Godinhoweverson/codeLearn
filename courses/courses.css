@@ -60,10 +60,11 @@
 .courses-grid-item-content{
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   height: 35%;
-  padding: 0.5rem;
+  padding: 1rem;
+  width: 100%;
 }
 
 .courses-grid-item-content p{
@@ -74,8 +75,19 @@
   font-weight: 700;
 }
 
-.courses-grid-item-content-duration{
-  padding-right: 0.8rem;
+.courses-grid-item-informations{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.courses-item-informations{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 /* MEDIA QUERY */
