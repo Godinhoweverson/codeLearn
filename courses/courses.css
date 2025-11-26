@@ -129,8 +129,8 @@
   }
 }
 
- /* *** 431X **** */
-@media (max-width: 431px) {
+ /* *** 480X **** */
+@media (max-width: 480px) {
 
   #courses-category{
     justify-content: center;
