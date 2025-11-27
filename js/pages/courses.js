@@ -105,6 +105,7 @@ if(searchForm){
         let img = document.createElement("img");
         img.classList.add("courses-grid-item-img");
         img.src = `../assets/images/courses/${course.image}`;
+        img.alt = `${course.course_title} icon`;
         coursesGridItem.appendChild(img);
 
         //Create Div element for set the description of the course
@@ -141,6 +142,7 @@ if(searchForm){
     
         let icon = document.createElement("img");
         icon.src = `../assets/images/videoIcon.png`;
+        icon.alt = 'video demanad icon';
         icon.style.paddingRight = "5px"
         divDuration.appendChild(icon);
 
@@ -155,6 +157,7 @@ if(searchForm){
 
         let iconReview = document.createElement("img");
         iconReview.src = `../assets/images/rate-review.png`;
+        iconReview.alt = 'rate review icon';
         iconReview.style.paddingRight = "5px";
         divReviews.appendChild(iconReview);
 

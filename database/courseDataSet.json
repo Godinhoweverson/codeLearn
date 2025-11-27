@@ -12,7 +12,7 @@
     "main_technology": "css",
     "description": "<h3>Overview</h3>\n<p>Learn the fundamentals of modern CSS and build visually engaging web pages from scratch. This beginner-friendly course covers essential styling techniques, layout systems, and responsive design practices. Through hands-on exercises, you will learn how to structure page components, create reusable styles, and implement real-world UI patterns.</p>\n<h3>Modules</h3>\n<ul>\n  <li>CSS basics: syntax, selectors, colors and units</li>\n  <li>Typography and icons</li>\n  <li>Box model and layout fundamentals</li>\n  <li>Flexbox and CSS Grid</li>\n  <li>Responsive design and media queries</li>\n  <li>CSS best practices, debugging and optimization</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to build clean, responsive layouts, apply consistent styling across pages, and debug common layout issues with confidence.</p>",
     "category": "Front-end",
-    "image": "css.png"
+    "image": "css.webp"
   },
   {
     "course_id": 64422,
@@ -27,7 +27,7 @@
     "main_technology": "html",
     "description": "<h3>Overview</h3>\n<p>This course introduces the core structure of the web: HTML. You will learn how to create semantic, accessible and well-structured pages while understanding how HTML works together with CSS and JavaScript. It is the ideal starting point for anyone beginning their web development journey.</p>\n<h3>Modules</h3>\n<ul>\n  <li>HTML document structure and boilerplate</li>\n  <li>Text, images, links and media</li>\n  <li>Lists, tables and semantic elements</li>\n  <li>Forms, inputs and basic validation concepts</li>\n  <li>Accessibility and SEO-friendly markup</li>\n  <li>Building your first multi-page website</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to create complete HTML pages using semantic tags, build basic forms, and prepare your pages to be styled and made interactive with CSS and JavaScript.</p>",
     "category": "Front-end",
-    "image": "html.png"
+    "image": "html.webp"
   },
   {
     "course_id": 63612,
@@ -42,7 +42,7 @@
     "main_technology": "javascript",
     "description": "<h3>Overview</h3>\n<p>Master the basics of JavaScript, the programming language of the web. This course helps beginners understand how to use JavaScript to control web pages, respond to user actions and build small interactive features.</p>\n<h3>Modules</h3>\n<ul>\n  <li>JavaScript syntax, variables and data types</li>\n  <li>Functions, conditions and loops</li>\n  <li>Arrays, objects and JSON basics</li>\n  <li>DOM manipulation and event handling</li>\n  <li>Using the browser console and debugging tools</li>\n  <li>Building a small interactive web app</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will understand how JavaScript runs in the browser, how to change page content dynamically, and how to structure simple scripts for real-world interactions.</p>",
     "category": "Front-end",
-    "image": "javaScript.png"
+    "image": "javascript.webp"
   },
   {
     "course_id": 665042,
@@ -57,7 +57,7 @@
     "main_technology": "ruby",
     "description": "<h3>Overview</h3>\n<p>A complete Ruby programming journey for beginners and experienced developers. You will learn Ruby fundamentals, object-oriented programming and professional development techniques by building real applications and following test-driven development (TDD) practices.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Ruby syntax, variables and control structures</li>\n  <li>Working with arrays, hashes, blocks and iterators</li>\n  <li>Object-oriented Ruby: classes, modules and inheritance</li>\n  <li>File handling, gems and package management</li>\n  <li>Testing and TDD with popular Ruby testing frameworks</li>\n  <li>Building and refactoring full Ruby applications</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to write clean, maintainable Ruby code, structure complete applications and use TDD to guide your development process.</p>",
     "category": "Back-end",
-    "image": "ruby.png"
+    "image": "ruby.webp"
   },
   {
     "course_id": 1023196,
@@ -72,7 +72,7 @@
     "main_technology": "laravel",
     "description": "<h3>Overview</h3>\n<p>Learn the essentials of Laravel, one of the most popular PHP frameworks for building modern web applications. This course takes you from project setup to building a small but complete app using Laravel's expressive syntax.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Installing and configuring a new Laravel project</li>\n  <li>Understanding MVC architecture and routing</li>\n  <li>Controllers, Blade templates and passing data to views</li>\n  <li>Working with databases using Eloquent ORM and migrations</li>\n  <li>Authentication, middleware and basic security</li>\n  <li>Building and testing a small Laravel CRUD application</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to structure Laravel projects using MVC, connect to a database with Eloquent and implement basic authentication and CRUD functionality.</p>",
     "category": "Database",
-    "image": "laravel.png"
+    "image": "laravel.webp"
   },
   {
     "course_id": 425084,
@@ -87,7 +87,7 @@
     "main_technology": "sql",
     "description": "<h3>Overview</h3>\n<p>Gain a solid foundation in SQL and database administration. This course teaches you how to design databases, write queries, manage permissions and tune performance using Microsoft SQL Server.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Relational database concepts and SQL basics</li>\n  <li>SELECT queries, filtering, sorting and aggregations</li>\n  <li>Joins, subqueries and working with related tables</li>\n  <li>Stored procedures, functions and views</li>\n  <li>Backup, security, roles and permissions</li>\n  <li>Indexes, performance tuning and troubleshooting</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to design tables, write efficient queries, manage database security and optimize database performance for real-world applications.</p>",
     "category": "Database",
-    "image": "sql.png"
+    "image": "sql.webp"
   },
   {
     "course_id": 212398,
@@ -102,7 +102,7 @@
     "main_technology": "node",
     "description": "<h3>Overview</h3>\n<p>Deep dive into advanced Node.js concepts and learn how to build scalable, high-performance backend services. This course is ideal for developers who already know the basics of Node.js and want to push their skills further.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Advanced asynchronous patterns and the event loop</li>\n  <li>Streams, buffers and working with files</li>\n  <li>Designing and building scalable REST APIs</li>\n  <li>Authentication, authorization and security practices</li>\n  <li>Performance profiling, logging and monitoring</li>\n  <li>Deployment strategies and production architecture patterns</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will understand Node.js internals more deeply, be able to design scalable API architectures and apply security and performance best practices to production systems.</p>",
     "category": "Back-end",
-    "image": "node.png"
+    "image": "node.webp"
   },
   {
     "course_id": 781532,
@@ -117,7 +117,7 @@
     "main_technology": "react",
     "description": "<h3>Overview</h3>\n<p>Level up your React skills by learning advanced patterns, state management and performance optimization. This course is designed for developers who already understand the basics of React and want to build production-ready applications.</p>\n<h3>Modules</h3>\n<ul>\n  <li>React fundamentals refresher and component architecture</li>\n  <li>Hooks, Context API and advanced state logic</li>\n  <li>Redux and organizing large-scale applications</li>\n  <li>Working with REST APIs, async actions and side effects</li>\n  <li>Performance tuning, memoization and code splitting</li>\n  <li>Building and deploying a complete React + Redux application</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to design scalable React architectures, manage complex state with confidence and ship optimized applications to production.</p>",
     "category": "Front-end",
-    "image": "react.png"
+    "image": "react.webp"
   },
   {
     "course_id": 599504,
@@ -132,7 +132,7 @@
     "main_technology": "python",
     "description": "<h3>Overview</h3>\n<p>Master backend web development with Python by building scalable applications using the Flask framework. This course is ideal for developers who know Python basics and want to apply them to real web projects.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Python refresher and Flask project setup</li>\n  <li>Routing, templates, forms and request handling</li>\n  <li>Working with databases using SQLAlchemy</li>\n  <li>Building RESTful APIs and returning JSON</li>\n  <li>Authentication, authorization and security best practices</li>\n  <li>Deploying Flask applications and scaling in production</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to architect backend services with Flask, connect them to databases, secure them properly and deploy them to production environments.</p>",
     "category": "Back-end",
-    "image": "python.png"
+    "image": "python.webp"
   },
   {
     "course_id": 833442,
@@ -147,7 +147,7 @@
     "main_technology": "angular",
     "description": "<h3>Overview</h3>\n<p>Learn Angular from the ground up and progress to building fully featured single-page applications. This course covers all the key concepts you need to confidently use Angular in real projects.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Angular fundamentals, project setup and CLI</li>\n  <li>Components, templates, data binding and pipes</li>\n  <li>Services, dependency injection and RxJS observables</li>\n  <li>Template-driven and reactive forms with validation</li>\n  <li>Routing, navigation and guards</li>\n  <li>Building a complete Angular application and integrating with a backend API</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will know how to structure Angular projects, communicate with APIs, manage form data and deliver maintainable front-end applications.</p>",
     "category": "Front-end",
-    "image": "angular.png"
+    "image": "angular.webp"
   },
   {
     "course_id": 267286,
@@ -162,7 +162,7 @@
     "main_technology": "java",
     "description": "<h3>Overview</h3>\n<p>Start your Java journey with core programming concepts and an introduction to server-side development using HTTP and Java servlets. This course is perfect for beginners who want to understand how Java fits into web development.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Java syntax, variables, data types and operators</li>\n  <li>Control flow: conditions, loops and error handling</li>\n  <li>Object-oriented programming basics: classes and objects</li>\n  <li>HTTP fundamentals and how web servers work</li>\n  <li>Java servlets and handling HTTP requests and responses</li>\n  <li>Building a simple Java-based web application</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will understand the basics of Java and how to use it to build simple server-side web features.</p>",
     "category": "Back-end",
-    "image": "java.png"
+    "image": "java.webp"
   },
   {
     "course_id": 1200874,
@@ -177,7 +177,7 @@
     "main_technology": "php",
     "description": "<h3>Overview</h3>\n<p>Learn PHP from the fundamentals through to building modern authentication workflows, including password-less login systems. This course is suitable for beginners and developers looking to modernize their PHP skills.</p>\n<h3>Modules</h3>\n<ul>\n  <li>PHP setup, syntax and basic scripting</li>\n  <li>Handling forms, sessions and server-side validation</li>\n  <li>Connecting PHP applications to MySQL databases</li>\n  <li>Working with JSON and third-party APIs</li>\n  <li>Security essentials: hashing, tokens and safe data handling</li>\n  <li>Implementing and testing a password-less authentication system</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to build dynamic PHP applications backed by a database and implement secure, user-friendly authentication flows.</p>",
     "category": "Back-end",
-    "image": "php.png"
+    "image": "php.webp"
   },
   {
     "course_id": 1024844,
@@ -192,7 +192,7 @@
     "main_technology": "mongodb",
     "description": "<h3>Overview</h3>\n<p>Learn how to use MongoDB to power modern web applications. This course teaches you how to design schemas, query data and integrate MongoDB with full-stack projects.</p>\n<h3>Modules</h3>\n<ul>\n  <li>NoSQL concepts and MongoDB basics</li>\n  <li>Designing collections and documents</li>\n  <li>CRUD operations, indexing and query patterns</li>\n  <li>Aggregation pipelines and analytics-style queries</li>\n  <li>Integrating MongoDB with web frameworks and APIs</li>\n  <li>Building a small web application backed by MongoDB</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to model application data in MongoDB, write efficient queries and connect your database to real web applications.</p>",
     "category": "Database",
-    "image": "mongoDB.png"
+    "image": "mongoDB.webp"
   },
   {
     "course_id": 1094964,
@@ -207,7 +207,7 @@
     "main_technology": "django",
     "description": "<h3>Overview</h3>\n<p>Build robust REST APIs using Django and Django REST Framework. This course is designed for developers who already know basic Django and want to focus on API development.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Django and Django REST Framework setup</li>\n  <li>Models, serializers and class-based views</li>\n  <li>Authentication, permissions and user management</li>\n  <li>Filtering, pagination and advanced API patterns</li>\n  <li>Testing, debugging and documentation of APIs</li>\n  <li>Deploying Django REST APIs to production</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to design and implement secure, well-structured REST APIs that can power modern front-end applications and mobile clients.</p>",
     "category": "Back-end",
-    "image": "django.png"
+    "image": "django.webp"
   },
   {
     "course_id": 873844,
@@ -222,7 +222,7 @@
     "main_technology": "flask",
     "description": "<h3>Overview</h3>\n<p>Learn how to build lightweight web applications with Flask and integrate them with Neo4j, a powerful graph database. This course is suitable for anyone who wants to explore Python web development with graph data.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Flask installation, structure and routing basics</li>\n  <li>Templates, static files and rendering views</li>\n  <li>Introduction to Neo4j and graph concepts</li>\n  <li>Connecting Flask applications to Neo4j</li>\n  <li>Building REST endpoints and handling JSON data</li>\n  <li>Final project: a small Flask + Neo4j web application</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will know how to create Flask apps, connect them to a Neo4j database and expose data through simple REST APIs.</p>",
     "category": "Back-end",
-    "image": "flask.png"
+    "image": "flask.webp"
   },
   {
     "course_id": 473622,
@@ -237,7 +237,7 @@
     "main_technology": "typescript",
     "description": "<h3>Overview</h3>\n<p>Learn TypeScript from the ground up and use it to build safer, more maintainable JavaScript applications. This course is ideal for developers who want to add types and structure to their front-end or back-end projects.</p>\n<h3>Modules</h3>\n<ul>\n  <li>TypeScript setup, tooling and basic types</li>\n  <li>Interfaces, type aliases and unions</li>\n  <li>Functions, generics and modules</li>\n  <li>Classes, inheritance and decorators</li>\n  <li>Using TypeScript with popular frameworks such as React or Node.js</li>\n  <li>Building and organizing a real-world TypeScript project</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to gradually introduce TypeScript into existing JavaScript codebases and build new applications with strong typing and better tooling support.</p>",
     "category": "Front-end",
-    "image": "typeScript.png"
+    "image": "typeScript.webp"
   },
   {
     "course_id": 987064,
@@ -252,7 +252,7 @@
     "main_technology": "vue",
     "description": "<h3>Overview</h3>\n<p>Master Vue.js 2 with a hands-on, project-based approach. This course helps you move beyond the basics and build structured, production-ready single-page applications.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Vue CLI, project structure and fundamental concepts</li>\n  <li>Components, props, events and reusable UI patterns</li>\n  <li>Global state management with Vuex</li>\n  <li>Routing and navigation with Vue Router</li>\n  <li>Working with REST APIs and async data</li>\n  <li>Building and polishing a complete Vue.js application</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to architect Vue applications with Vuex and Vue Router and connect them to real APIs for dynamic content.</p>",
     "category": "Front-end",
-    "image": "vue.png"
+    "image": "vue.webp"
   },
   {
     "course_id": 563020,
@@ -267,7 +267,7 @@
     "main_technology": "swift",
     "description": "<h3>Overview</h3>\n<p>Learn iOS development with Swift by building multiple real-world applications. This extensive course takes you from Swift programming basics to creating and publishing complete iOS apps.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Swift language fundamentals and control flow</li>\n  <li>Object-oriented programming and Swift structures</li>\n  <li>Building user interfaces with UIKit and Interface Builder</li>\n  <li>Working with networking, JSON and APIs</li>\n  <li>App architecture patterns such as MVC and MVVM</li>\n  <li>Packaging, testing and publishing iOS apps to the App Store</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will know how to design, code and ship fully functional iOS applications using Swift and Apple's development tools.</p>",
     "category": "Back-end",
-    "image": "swift.png"
+    "image": "swift.webp"
   },
   {
     "course_id": 563021,
@@ -282,7 +282,7 @@
     "main_technology": "nextjs",
     "description": "<h3>Overview</h3>\n<p>A complete pathway to mastering modern full-stack development with Next.js. Learn how to use file-based routing, the App Router, server components and API routes to build fast, SEO-friendly applications from scratch.</p>\n<h3>Modules</h3>\n<ul>\n  <li>Next.js fundamentals, project setup and architecture overview</li>\n  <li>File-based routing, layouts and the App Router</li>\n  <li>Styling options, shared layouts and UI patterns</li>\n  <li>API routes, database integration and authentication</li>\n  <li>Performance optimization, caching and image optimization</li>\n  <li>Deploying production-ready Next.js applications and best practices</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to build, optimize and deploy full-stack Next.js applications suitable for real production environments.</p>",
     "category": "Front-end",
-    "image": "nextjs.png"
+    "image": "nextjs.webp"
   },
   {
     "course_id": 563022,
@@ -297,6 +297,6 @@
     "main_technology": "c++",
     "description": "<h3>Overview</h3>\n<p>Master modern C++ from the fundamentals to advanced topics used in real-world, performance-critical applications. This bootcamp-style course covers language features, memory management and the Standard Template Library (STL) through practical coding exercises.</p>\n<h3>Modules</h3>\n<ul>\n  <li>C++ basics, compilation process and program structure</li>\n  <li>Functions, references, classes and object-oriented design</li>\n  <li>Templates, generic programming and error handling</li>\n  <li>STL containers, algorithms and iterators</li>\n  <li>Pointers, smart pointers, memory management and RAII</li>\n  <li>Modern C++ features (C++11/14/17), multithreading and building complete applications</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will be able to write efficient, robust and modern C++ code for systems programming, game engines or other high-performance domains.</p>",
     "category": "Back-end",
-    "image": "c++.png"
+    "image": "c++.webp"
   }
 ]
