@@ -15,6 +15,7 @@ fetch("../database/courseDataSet.json")
 
   let course;
   let courseSub = localStorage.getItem("course");
+  
   if(!courseSub){
     course = courses.filter((course) => course.course_id === Number(courseId));
   }else{
