@@ -42,7 +42,7 @@
     "main_technology": "javascript",
     "description": "<h3>Overview</h3>\n<p>Master the basics of JavaScript, the programming language of the web. This course helps beginners understand how to use JavaScript to control web pages, respond to user actions and build small interactive features.</p>\n<h3>Modules</h3>\n<ul>\n  <li>JavaScript syntax, variables and data types</li>\n  <li>Functions, conditions and loops</li>\n  <li>Arrays, objects and JSON basics</li>\n  <li>DOM manipulation and event handling</li>\n  <li>Using the browser console and debugging tools</li>\n  <li>Building a small interactive web app</li>\n</ul>\n<h3>What You Will Achieve</h3>\n<p>By the end of this course you will understand how JavaScript runs in the browser, how to change page content dynamically, and how to structure simple scripts for real-world interactions.</p>",
     "category": "Front-end",
-    "image": "javascript.webp"
+    "image": "javaScript.webp"
   },
   {
     "course_id": 665042,
