@@ -201,7 +201,7 @@ main {
     border-radius: 8px;
 }
 
-#cards {
+#cards{
     margin-bottom: 3.5rem;
     width: 80%;
 }
@@ -212,7 +212,8 @@ main {
 
 .card-item img {
     border-radius: 8px;
-    height: 20%;
+    height: auto;
+    max-height: 230px;
     width: 100%;
 }
 
@@ -320,18 +321,29 @@ main {
 
 /* MEDIA QUERIES */
 
+/* *** MAX 1300PX **** */
 @media (max-width: 1300px) {
     .plan-container-plans h3 {
         font-size: 1.3rem;
     }
 }
 
+/* *** MIN 1200PX **** */
+@media (min-width: 1200px) {
+  .col-xl-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* *** MAX 1024PX **** */
 @media (max-width: 1024px) {
     #heading {
         height: 40vh;
     }
 }
 
+/* *** MAX 992px **** */
 @media (max-width: 992px) {
     #sub-heading {
         width: 90%;
@@ -373,12 +385,20 @@ main {
     }
 }
 
-@media (max-width: 769px) {
+/* *** MAX 767PX **** */
+@media (max-width: 767px) {
     #cards {
         display: none;
     }
+    
+    .sub-heading-items {
+        display: none;
+    }
+
 }
 
+
+/* *** MAX 572PX **** */
 @media (max-width: 572px) {
     p {
         font-size: .8rem;
@@ -404,9 +424,6 @@ main {
         padding: .5rem 1rem;
     }
 
-    .sub-heading-items {
-        display: none;
-    }
 
     #sub-heading-content {
         flex-direction: column;
@@ -425,6 +442,8 @@ main {
         display: none;
     }
 }
+
+/* *** MAX 932PX  ORIENTATION LANDSCAPE**** */
 
 @media screen and (max-width: 932px) and (orientation: landscape) {
     #heading {

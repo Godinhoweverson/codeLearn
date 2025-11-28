@@ -1,124 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Learn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style/index.css">
+    <link rel="stylesheet" href="../assets/global/navBar.css">
+    <link rel="stylesheet" href="../assets/global/footer.css">
+    <link rel="stylesheet" href="courses.css">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Learn</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/style/index.css">
-  <link rel="stylesheet" href="../assets/global/navBar.css">
-  <link rel="stylesheet" href="../assets/global/footer.css">
-  <link rel="stylesheet" href="courses.css">
+  </head>
+  <body>
+    <div id="main-container">
+      <header>
+        <nav class="navbar w-100">
+          <div class="container-fluid p-0">
+            <a class="logo" href="../index.html"><span>{}</span>Code Learn</a>
+            <form class="d-flex justify-content-center align-items-center search-form w-50 order-1 order-sm-0"
+              role="search">
+              <input class="form-control search-input" type="search" placeholder="Search for courses" aria-label="Search"
+                id="search-form">
+            </form>
+            <button class="navbar-toggler order-0 order-sm-1" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-</head>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+               role="navigation">
+              <div class="offcanvas-header">
+                <h5 class="logo"><span>{}</span>Code Learn</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../signIn/signIn.html">Sign in</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="courses.html">Front-end</a></li>
+                      <li><a class="dropdown-item" href="courses.html">Back-end</a></li>
+                      <li><a class="dropdown-item" href="courses.html">Database</a></li>
+                    </ul>
+                  </li>
+                </ul>
 
-<body>
-  <div id="main-container">
-    <header>
-      <nav class="navbar w-100">
-        <div class="container-fluid p-0">
-          <a class="logo" href="../index.html"><span>{}</span>Code Learn</a>
-          <form class="d-flex justify-content-center align-items-center search-form w-50 order-1 order-sm-0"
-            role="search">
-            <input class="form-control search-input" type="search" placeholder="Search for courses" aria-label="Search"
-              id="search-form">
-          </form>
-          <button class="navbar-toggler order-0 order-sm-1" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="logo"><span>{}</span>Code Learn</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="courses.html">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../signIn/signIn.html">Sign in</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Categories
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="courses.html">Front-end</a></li>
-                    <li><a class="dropdown-item" href="courses.html">Back-end</a></li>
-                    <li><a class="dropdown-item" href="courses.html">Database</a></li>
-                  </ul>
-                </li>
-              </ul>
-
+              </div>
             </div>
           </div>
+        </nav>
+      </header>
+      <div id="courses-main">
+        <div id="courses-category">
+          <p class="category">All courses</p>
+          <p class="category">Front-end</p>
+          <p class="category">Back-end</p>
+          <p class="category">Database</p>
         </div>
-      </nav>
-    </header>
-    <div id="courses-main">
-      <div id="courses-category">
-        <p class="category">All courses</p>
-        <p class="category">Front-end</p>
-        <p class="category">Back-end</p>
-        <p class="category">Database</p>
+        <div id="courses-grid">
+        </div>
       </div>
-      <div id="courses-grid">
-      </div>
-      </main>
+      <footer>
+        <div class="footer-brand">
+          <div class="footer-brand-heading">
+            <h3><span>{}</span>Code Learn</h3>
+          </div>
+          <div class="footer-brand-paragraph">
+            <p>Upgrade your skills with technology</p>
+          </div>
+        </div>
+        <div class="footer-container-newsletter">
+          <div class="footer-container-newsletter-text">
+            <h4>Never miss update</h4>
+            <p>Get all news and course updates from Code Learn delivered directly to your email inbox.</p>
+          </div>
+          <p id="footer-container-newsletter-paragraph">Thank you for subscribing to our newsletter!</p>
+          <div class="footer-container-newsletter-form">
+            <form id="newsletter-form" class="d-flex justify-content-center align-items-center w-100">
+              <input class="form-control w-75" id="newsletter-input" name="newsletter" type="email"
+                placeholder="email@email.com" aria-label="Text" required>
+              <button type="submit" class="footer-btn">Join</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-copyRights">
+          <p>&copy; <span id="year"></span> Code Learn. All rights reserved.</p>
+        </div>
+      </footer>
+          <!-- BOOTSTRAP CDN -->
+      <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+          defer
+      ></script>
+        <!-- JQUERY CDN -->
+      <script
+          src="https://code.jquery.com/jquery-3.7.1.js"
+          integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+          crossorigin="anonymous">
+      </script>
+      <!-- SIGN JS -->
+      <script src="../js/pages/signIn.js"></script>
+      <!-- COURSES JS -->
+      <script src="../js/pages/courses.js"></script>
+      <!-- COURSES DETAIL JS -->
+      <script src="../js/pages/coursesDetails.js"></script>
+      <!-- GLOBAL JS -->
+      <script src="../js/script.js"></script>
     </div>
-    <footer>
-      <div class="footer-brand">
-        <div class="footer-brand-heading">
-          <h3><span>{}</span>Code Learn</h3>
-        </div>
-        <div class="footer-brand-paragraph">
-          <p>Upgrade your skills with technology</p>
-        </div>
-      </div>
-      <div class="footer-container-newsletter">
-        <div class="footer-container-newsletter-text">
-          <h4>Never miss update</h4>
-          <p>Get all news and course updates from Code Learn delivered directly to your email inbox.</p>
-        </div>
-        <p id="footer-container-newsletter-paragraph">Thank you for subscribing to our newsletter!</p>
-        <div class="footer-container-newsletter-form">
-          <form id="newsletter-form" class="d-flex justify-content-center align-items-center w-100">
-            <input class="form-control w-75" id="newsletter-input" name="newsletter" type="email"
-              placeholder="email@email.com" aria-label="Text" required>
-            <button type="submit" class="footer-btn">Join</button>
-          </form>
-        </div>
-      </div>
-      <div class="footer-copyRights">
-        <p>&copy; <span id="year"></span> Code Learn. All rights reserved.</p>
-      </div>
-    </footer>
-        <!-- BOOTSTRAP CDN -->
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        defer
-    ></script>
-</body>
-<!-- JQUERY CDN -->
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-  crossorigin="anonymous"></script>
-<!-- SIGN JS -->
-<script src="../js/pages/signIn.js"></script>
-<!-- COURSES JS -->
-<script src="../js/pages/courses.js"></script>
-<!-- COURSES DETAIL JS -->
-<script src="../js/pages/coursesDetails.js"></script>
-<!-- GLOBAL JS -->
-<script src="../js/script.js"></script>
-
+  </body>
 </html>
