@@ -76,13 +76,12 @@ categoriesIndex.forEach((element) => {
 
 
 
-   //Finish............
+
 let items = document.querySelectorAll(".sub-heading-items-tec");
 
 items.forEach((item)=>{
   item.addEventListener("click", function(e){
     const course = e.target.closest(".sub-heading-items-tec");
     localStorage.setItem('course',course.dataset.course)
-    
-    window.location.href = "../courseDetail/courseDetail.html"
+    window.location.href = "courseDetails/courseDetails.html"
 })})

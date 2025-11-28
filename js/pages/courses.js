@@ -182,7 +182,7 @@ if(searchForm){
 
                 localStorage.setItem("courseId",courseId);
 
-                window.location.href = "../courseDetail/courseDetail.html"
+                window.location.href = "../courseDetails/courseDetails.html"
               }
             });
           })
