@@ -285,18 +285,20 @@ main {
 #reviews {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: initial;
     border-radius: 8px;
-    margin-bottom: 3.5rem;
-    min-height: 300px;
+    margin-bottom: 2.5rem;
+    min-height: 250px;
     width: 80%;
 }
 
 .reviews-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     width: 32%;
+    margin-bottom: 1rem;
 }
 
 .review-item-user {
@@ -307,8 +309,7 @@ main {
 }
 
 .profile-review {
-    width: 64px;
-    height: 64px;
+    width: 30%;
     border-radius: 50%;
     padding-right: 1rem;
   
