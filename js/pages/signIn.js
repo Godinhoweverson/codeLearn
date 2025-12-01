@@ -25,28 +25,28 @@ $(function(){
     ){
       $errorSpan.addClass("active-error");
       $errorSpan.text(
-        "Invalid: numbers are not allowed and spaces."
+        "*Invalid: numbers are not allowed and spaces."
       );
     }
 
     //Email
     if(input.validity.patternMismatch && input.name === "email"){
       $errorSpan.addClass("active-error");
-      $errorSpan.text("Please enter a valid email address.");
+      $errorSpan.text("*Please enter a valid email address.");
     }
     
     //Password
     if(input.validity.patternMismatch && input.name === "password"){
       $errorSpan.addClass("active-error");
       $errorSpan.text(
-        " Password require at least 8 characters, one uppercase, one lowercase, one speacial character (@, $, !, %, etc.)"
+        "*Password require at least 8 characters, one uppercase, one lowercase, one speacial character (@, $, !, %, etc.)"
       );
     }
 
     // If the input field is empty
     if(input.validity.valueMissing){
       $errorSpan.addClass("active-error");
-      $errorSpan.text("This field is required");
+      $errorSpan.text("*This field is required");
     }
   }
   
