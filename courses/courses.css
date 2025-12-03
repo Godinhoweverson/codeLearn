@@ -133,12 +133,16 @@
 @media (max-width: 480px) {
 
   #courses-category{
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
   }
 
   #courses-grid{
     grid-template-columns: 100%;
+  }
+
+  #courses-category p{
+    margin: 0;
   }
 }
 

@@ -362,11 +362,16 @@ main {
         align-content: space-between;
         flex-direction: column;
         width: 90%;
+        margin-bottom: 0;
     }
 
     .plan-container-plans {
         width: 100%;
         margin-bottom: 3.5rem;
+    }
+
+    .plans-btn {
+        width: 80%;
     }
 
     #reviews {
@@ -377,7 +382,7 @@ main {
 
     .reviews-item {
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .review-item-review {
@@ -445,6 +450,11 @@ main {
 
     #cards {
         display: none;
+    }
+
+    .plans-btn {
+        padding: .35rem 1.5rem;
+        width: 80%;
     }
 }
 

@@ -4,7 +4,7 @@ let img = document.getElementsByClassName("courseDetail-main-course-card-img")[0
 let lectures = document.getElementById("lectures");
 let Subcribes = document.getElementById("Subcribes");
 let reviews = document.getElementById("course-reviews");
-
+let informationBtn = document.getElementById("information-button");
 let description = document.getElementById(
   "courseDetail-description"
 );
@@ -35,3 +35,9 @@ fetch("../database/courseDataSet.json")
   }
 
 })
+
+if(informationBtn){
+  informationBtn.addEventListener("click", function(){
+    informationBtn.textContent = "Enrolled";
+  })
+}

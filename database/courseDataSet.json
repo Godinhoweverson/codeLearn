@@ -2,7 +2,7 @@
   {
     "course_id": 64605,
     "course_title": "Introduction to Css",
-    "num_subscribers": 18324,
+    "num_subscribers": 183,
     "num_reviews": 333,
     "num_lectures": 16,
     "level": "Beginner Level",
@@ -17,7 +17,7 @@
   {
     "course_id": 64422,
     "course_title": "Introduction to Html",
-    "num_subscribers": 16212,
+    "num_subscribers": 162,
     "num_reviews": 514,
     "num_lectures": 20,
     "level": "Beginner Level",
@@ -32,7 +32,7 @@
   {
     "course_id": 63612,
     "course_title": "Introduction to Javascript",
-    "num_subscribers": 22999,
+    "num_subscribers": 229,
     "num_reviews": 602,
     "num_lectures": 18,
     "level": "Beginner Level",
@@ -47,7 +47,7 @@
   {
     "course_id": 665042,
     "course_title": "Comprehensive Guide to Ruby",
-    "num_subscribers": 5962,
+    "num_subscribers": 596,
     "num_reviews": 466,
     "num_lectures": 132,
     "level": "All Levels",
@@ -62,7 +62,7 @@
   {
     "course_id": 1023196,
     "course_title": "Comprehensive Guide to Laravel",
-    "num_subscribers": 3492,
+    "num_subscribers": 349,
     "num_reviews": 61,
     "num_lectures": 12,
     "level": "All Levels",
@@ -92,7 +92,7 @@
   {
     "course_id": 212398,
     "course_title": "Master Advanced Node Concepts",
-    "num_subscribers": 2565,
+    "num_subscribers": 255,
     "num_reviews": 32,
     "num_lectures": 41,
     "level": "Expert Level",
@@ -107,7 +107,7 @@
   {
     "course_id": 781532,
     "course_title": "Enhance Your React Skills",
-    "num_subscribers": 21998,
+    "num_subscribers": 218,
     "num_reviews": 3326,
     "num_lectures": 119,
     "level": "Intermediate Level",
@@ -122,7 +122,7 @@
   {
     "course_id": 599504,
     "course_title": "Enhance Your Python Skills",
-    "num_subscribers": 1299,
+    "num_subscribers": 129,
     "num_reviews": 56,
     "num_lectures": 71,
     "level": "Intermediate Level",
@@ -137,7 +137,7 @@
   {
     "course_id": 833442,
     "course_title": "Comprehensive Guide to Angular",
-    "num_subscribers": 17297,
+    "num_subscribers": 177,
     "num_reviews": 3166,
     "num_lectures": 111,
     "level": "All Levels",
@@ -152,7 +152,7 @@
   {
     "course_id": 267286,
     "course_title": "Introduction to Java",
-    "num_subscribers": 2797,
+    "num_subscribers": 297,
     "num_reviews": 59,
     "num_lectures": 10,
     "level": "Beginner Level",
@@ -167,7 +167,7 @@
   {
     "course_id": 1200874,
     "course_title": "Comprehensive Guide to Php",
-    "num_subscribers": 4001,
+    "num_subscribers": 401,
     "num_reviews": 8,
     "num_lectures": 37,
     "level": "All Levels",
@@ -197,7 +197,7 @@
   {
     "course_id": 1094964,
     "course_title": "Enhance Your Django Skills",
-    "num_subscribers": 2669,
+    "num_subscribers": 269,
     "num_reviews": 112,
     "num_lectures": 72,
     "level": "Intermediate Level",
@@ -227,7 +227,7 @@
   {
     "course_id": 473622,
     "course_title": "Comprehensive Guide to Typescript",
-    "num_subscribers": 1318,
+    "num_subscribers": 138,
     "num_reviews": 78,
     "num_lectures": 51,
     "level": "All Levels",
@@ -242,7 +242,7 @@
   {
     "course_id": 987064,
     "course_title": "Enhance Your Vue Skills",
-    "num_subscribers": 1087,
+    "num_subscribers": 107,
     "num_reviews": 220,
     "num_lectures": 32,
     "level": "Intermediate Level",
@@ -257,7 +257,7 @@
   {
     "course_id": 563020,
     "course_title": "Comprehensive Guide to Swift",
-    "num_subscribers": 1926,
+    "num_subscribers": 196,
     "num_reviews": 9,
     "num_lectures": 458,
     "level": "All Levels",
@@ -272,7 +272,7 @@
   {
     "course_id": 563021,
     "course_title": "Mastering Next.js From Zero to Production",
-    "num_subscribers": 3480,
+    "num_subscribers": 340,
     "num_reviews": 27,
     "num_lectures": 312,
     "level": "All Levels",
@@ -287,7 +287,7 @@
   {
     "course_id": 563022,
     "course_title": "Complete Modern C++ Programming Bootcamp",
-    "num_subscribers": 4120,
+    "num_subscribers": 410,
     "num_reviews": 34,
     "num_lectures": 520,
     "level": "All Levels",

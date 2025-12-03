@@ -50,10 +50,6 @@
     border-radius: 8px;
 }
 
-input:invalid{
-    border-color: #fd5c63;
-}
-
 /* *** 1024PX **** */
 @media (max-width: 1024px) {
     #signIn-form{
