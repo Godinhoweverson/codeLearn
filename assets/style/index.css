@@ -458,9 +458,9 @@ main {
     }
 }
 
-/* *** MAX 932PX  ORIENTATION LANDSCAPE**** */
+/* *** MAX 1024PX  ORIENTATION LANDSCAPE**** */
 
-@media screen and (max-width: 932px) and (orientation: landscape) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
     #heading {
         height: 60vh;
     }

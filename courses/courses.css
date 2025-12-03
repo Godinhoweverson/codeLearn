@@ -113,15 +113,10 @@
 
    #courses-grid{
     grid-template-columns: 49% 49%;
+    column-gap: 2.5rem;
   }
 }
 
-/* LANDSCAPE */
-@media screen and (max-width:932px) and (orientation: landscape){
-  #courses-grid{
-    grid-template-columns: 49% 49%;
-  }
-}
 /* *** 640PX **** */
 @media (max-width: 640px) {
   #courses-grid{
