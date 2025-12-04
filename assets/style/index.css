@@ -346,10 +346,6 @@ main {
     #heading {
         height: 40vh;
     }
-}
-
-/* *** MAX 992px **** */
-@media (max-width: 992px) {
     #sub-heading {
         width: 90%;
     }
@@ -359,9 +355,19 @@ main {
     }
 
     #plan-container {
+        width: 90%;
+    }
+    #reviews {
+        width: 90%;
+    }
+}
+
+/* *** MAX 992px **** */
+@media (max-width: 992px) {
+
+    #plan-container {
         align-content: space-between;
         flex-direction: column;
-        width: 90%;
         margin-bottom: 0;
     }
 
@@ -377,7 +383,6 @@ main {
     #reviews {
         flex-direction: column;
         align-content: space-between;
-        width: 90%;
     }
 
     .reviews-item {

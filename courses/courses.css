@@ -63,7 +63,8 @@
   justify-content: space-around;
   flex-direction: column;
   height: 35%;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: 100%;
 }
 
@@ -105,6 +106,13 @@
   }
 }
 
+/* *** 1024PX **** */
+@media (max-width: 1024px) {
+  #courses-main{
+    width: 90%;
+  }
+}
+
 /* *** 992PX **** */
 @media (max-width: 992px) {
   #courses-main{
@@ -112,8 +120,9 @@
   }
 
    #courses-grid{
-    grid-template-columns: 49% 49%;
-    column-gap: 2.5rem;
+      grid-template-columns: repeat(2, minmax(150px, 1fr));
+      justify-content: center;
+      gap: 3.5rem 2rem;
   }
 }
 
